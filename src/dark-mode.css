@@ -1,0 +1,149 @@
+/* =========================================
+   LEARNHUB DARK MODE
+========================================= */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* General pages */
+
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .dashboard-page,
+html[data-theme="dark"] .courses-container,
+html[data-theme="dark"] .settings-page {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* Navigation */
+
+html[data-theme="dark"] .navbar,
+html[data-theme="dark"] .dashboard-navbar,
+html[data-theme="dark"] .settings-navbar {
+  background: #111827 !important;
+  border-color: #263244 !important;
+}
+
+html[data-theme="dark"] .navbar a,
+html[data-theme="dark"] .dashboard-nav-links a,
+html[data-theme="dark"] .settings-nav-links a {
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .navbar a:hover,
+html[data-theme="dark"] .dashboard-nav-links a:hover,
+html[data-theme="dark"] .settings-nav-links a:hover {
+  color: #a78bfa !important;
+}
+
+/* Headings */
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4 {
+  color: #f8fafc !important;
+}
+
+/* Paragraphs */
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] span {
+  color: #cbd5e1;
+}
+
+/* Cards */
+
+html[data-theme="dark"] .dashboard-stat-card,
+html[data-theme="dark"] .continue-card,
+html[data-theme="dark"] .lesson-row,
+html[data-theme="dark"] .quick-card,
+html[data-theme="dark"] .course-card,
+html[data-theme="dark"] .auth-card,
+html[data-theme="dark"] .settings-content,
+html[data-theme="dark"] .settings-sidebar {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+/* Settings */
+
+html[data-theme="dark"] .settings-tab {
+  color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .settings-tab:hover,
+html[data-theme="dark"] .settings-tab.active {
+  background: #312e81 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .setting-option {
+  border-color: #334155 !important;
+}
+
+html[data-theme="dark"] .setting-option h3 {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .setting-option p {
+  color: #94a3b8 !important;
+}
+
+/* Inputs */
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Course page */
+
+html[data-theme="dark"] .courses-page,
+html[data-theme="dark"] .course-section,
+html[data-theme="dark"] .course-details-page {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* Footer */
+
+html[data-theme="dark"] footer,
+html[data-theme="dark"] .courses-footer {
+  background: #020617 !important;
+  color: #cbd5e1 !important;
+}
+
+/* Buttons */
+
+html[data-theme="dark"] .outline-button {
+  background: transparent !important;
+  color: #c4b5fd !important;
+  border-color: #6366f1 !important;
+}
+
+/* Toggle */
+
+html[data-theme="dark"] .toggle {
+  background: #475569;
+}
+
+html[data-theme="dark"] .toggle.on {
+  background: #6366f1;
+}
